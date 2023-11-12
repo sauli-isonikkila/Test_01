@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class KirjaTest {
 
 	@Test
-	final void testGetJulkaisuVuosi() {
+	void testSetJulkaisuVuosi() {
 		fail("Not yet implemented");
 	}
 
