@@ -9,15 +9,34 @@ public class Kirja {
 		
 	}
 
+	@Deprecated
 	public Kirja(String nimi, String tekija, int julkaisuVuosi) {
 		this.nimi = nimi;
 		this.tekija = tekija;
 		this.julkaisuVuosi = julkaisuVuosi;
 	}
 
+	@Deprecated
 	public String getNimi() {
 		return nimi;
 	}
+	
+	public boolean getNimi(String nimi) {
+		if (this.nimi != null) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	public boolean getNimi(String nimi, String Ok) {
+		if (this.nimi != null) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
 
 	public void setNimi(String nimi) {
 		this.nimi = nimi;
